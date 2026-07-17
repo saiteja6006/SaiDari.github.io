@@ -3,42 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Dari | Software Engineer</title>
-    <!-- Tailwind CSS -->
+    <title>Sai Dari | Senior AI/ML Engineer</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Premium Google Fonts -->
+    <!-- Premium Developer Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
     <style>
-        h1, h2, h3 {
-            font-family: 'Space Grotesk', sans-serif;
-        }
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-        code, pre {
-            font-family: 'JetBrains Mono', monospace;
-        }
-        .txt-cursor {
-            animation: blink 0.8s infinite;
-        }
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
-        }
+        h1, h2, h3, .tech-heading { font-family: 'Space Grotesk', sans-serif; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        code, pre, .font-mono { font-family: 'JetBrains Mono', monospace; }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #09090b; }
+        ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
     </style>
 </head>
 <body class="bg-zinc-950 text-zinc-300 font-sans antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
 
-    <!-- Header / Hero Section -->
-    <header class="relative bg-zinc-900/20 border-b border-zinc-900 py-24 px-6 text-center backdrop-blur-md overflow-hidden">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[250px] bg-indigo-500/5 blur-[120px] rounded-full pointer-events-none"></div>
+    <!-- Header / Hero Space -->
+    <header class="relative bg-zinc-900/10 border-b border-zinc-900/80 py-28 px-6 text-center backdrop-blur-md overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-indigo-500/5 blur-[140px] rounded-full pointer-events-none"></div>
         
         <div class="inline-flex items-center gap-2 bg-zinc-900 border border-zinc-800/80 rounded-full px-4 py-1.5 text-xs text-zinc-400 font-medium mb-6">
             <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            Available for Open Source & Collaboration
+            Dallas, TX — Actively Open to Top-Tier AI Roles
         </div>
 
         <h1 class="text-5xl font-bold tracking-tight text-white sm:text-6xl bg-gradient-to-b from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent">
@@ -49,125 +41,251 @@
             I am a <span id="typewriter-text" class="text-indigo-400 font-semibold border-r-2 border-indigo-400 pr-1 tracking-wide"></span>
         </p>
 
-        <div class="mt-8 flex justify-center space-x-6">
-            <!-- Active GitHub Link -->
-            <a href="https://github.com/saiteja6006" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-zinc-400 hover:text-white border border-zinc-800 bg-zinc-900/50 hover:bg-zinc-900 px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-1.5 shadow-sm">
+        <!-- Direct Action Contacts -->
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a href="https://github.com/saiteja6006" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-zinc-300 hover:text-white border border-zinc-800 bg-zinc-900/40 hover:bg-zinc-900 px-5 py-2.5 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm">
                 GitHub ↗
             </a>
-            <!-- Active LinkedIn Link -->
-            <a href="https://www.linkedin.com/in/sai-dari-71096b254/" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-zinc-400 hover:text-white border border-zinc-800 bg-zinc-900/50 hover:bg-zinc-900 px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-1.5 shadow-sm">
+            <a href="https://www.linkedin.com/in/sai-dari-710966254/" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-zinc-300 hover:text-white border border-zinc-800 bg-zinc-900/40 hover:bg-zinc-900 px-5 py-2.5 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm">
                 LinkedIn ↗
+            </a>
+            <a href="mailto:sailypally98@gmail.com" class="text-sm font-semibold text-zinc-300 hover:text-white border border-zinc-800 bg-zinc-900/40 hover:bg-zinc-900 px-5 py-2.5 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm">
+                📧 sailypally98@gmail.com
+            </a>
+            <a href="tel:+12064518426" class="text-sm font-semibold text-zinc-300 hover:text-white border border-zinc-800 bg-zinc-900/40 hover:bg-zinc-900 px-5 py-2.5 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm">
+                📞 +1 (206) 451-8426
             </a>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-6 py-20 space-y-24">
-
-        <!-- Open Source Contributions -->
-        <section>
-            <h2 class="text-3xl font-bold tracking-tight text-white mb-10 border-b border-zinc-900 pb-4 flex items-center space-x-3">
-                <span class="text-indigo-400 font-normal">01 /</span>
-                <span>Open Source Contributions</span>
-            </h2>
+    <!-- Main Workspace Layout -->
+    <main class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
+        
+        <!-- Left Side: Core Engineering Narrative & Data Columns -->
+        <div class="lg:col-span-2 space-y-24">
             
-            <div class="space-y-6">
-                <!-- Contribution 1: LeRobot Circular Import -->
-                <div class="group relative bg-zinc-900/30 p-8 rounded-2xl border border-zinc-900 shadow-xl backdrop-blur-sm hover:border-zinc-800/80 hover:bg-zinc-900/50 transition-all duration-300">
-                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                        <h3 class="text-xl font-bold tracking-tight text-zinc-100 group-hover:text-white transition-colors duration-200">Hugging Face — LeRobot</h3>
-                        <div>
-                            <span class="bg-emerald-500/5 text-emerald-400 border border-emerald-500/10 text-xs font-semibold px-3 py-1 rounded-full tracking-wide uppercase">
-                                PR Submitted
-                            </span>
+            <!-- Summary Area -->
+            <section class="space-y-4">
+                <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">Executive Summary</h2>
+                <p class="text-zinc-400 font-light leading-relaxed text-base">
+                    Senior AI/ML Engineer with 5+ years of experience delivering production AI, Generative AI, and machine learning solutions across **Blue Cross Blue Shield**, **Walmart**, and **KPMG**[cite: 1]. Brings engineering depth in RAG, agentic AI, multi-agent systems, LLM evaluation, healthcare analytics, and distributed data processing[cite: 1]. Combines strong backend engineering, ML infrastructure, and responsible AI practices to translate complex technical requirements into scalable platforms[cite: 1].
+                </p>
+            </section>
+
+            <!-- Production Milestones / Experience -->
+            <section class="space-y-10">
+                <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">Professional Experience</h2>
+                
+                <div class="space-y-12">
+                    <!-- Milestone 1: BCBS -->
+                    <div class="relative border-l border-zinc-800 pl-6 ml-2 space-y-3">
+                        <div class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-indigo-500"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <h3 class="text-lg font-bold text-zinc-100">Sr. AI/ML Engineer</h3>
+                            <span class="text-xs text-zinc-500 font-mono">April 2026 - Present</span>
                         </div>
+                        <p class="text-sm font-medium text-indigo-400/90 font-mono">Blue Cross Blue Shield | Dallas, TX[cite: 1]</p>
+                        <ul class="space-y-2 text-sm text-zinc-400 font-light list-disc list-inside">
+                            <li>Implemented 3 FastAPI-based Python microservices supporting HIPAA-compliant healthcare analytics and patient care platforms[cite: 1].</li>
+                            <li>Formulated 2 RAG workflows using LangChain, FAISS, and LLMs to process 10K+ clinical document chunks, shortening evidence retrieval by 11 seconds[cite: 1].</li>
+                            <li>Enhanced clinical workflows via AWS Bedrock and SageMaker pipelines, adding RBAC controls, audit logging, and enterprise authentication[cite: 1].</li>
+                        </ul>
                     </div>
-                    <p class="text-xs font-medium text-indigo-400/80 font-mono uppercase tracking-widest mt-2">Core Robotics Library | Python, Git</p>
-                    <p class="mt-4 text-zinc-400 leading-relaxed font-light">
-                        Diagnosed and resolved a fatal cross-platform package initialization blocker on Windows Conda environments caused by an internal namespace collision with Python's standard library (<code class="bg-zinc-900 px-1.5 py-0.5 rounded text-rose-400 text-sm border border-zinc-800">types.py</code>). Refactored internal dependencies to ensure robust cross-platform stability.
-                    </p>
-                    <div class="mt-6">
-                        <a href="https://github.com/huggingface/lerobot" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-medium text-indigo-400 hover:text-indigo-300 transition-colors duration-200 group-link">
-                            View Pull Request 
-                            <span class="inline-block transform group-hover:translate-x-1 transition-transform duration-200 ml-1">↗</span>
-                        </a>
+
+                    <!-- Milestone 2: Walmart -->
+                    <div class="relative border-l border-zinc-800 pl-6 ml-2 space-y-3">
+                        <div class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-zinc-700"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <h3 class="text-lg font-bold text-zinc-100">AI Engineer</h3>
+                            <span class="text-xs text-zinc-500 font-mono">January 2023 - March 2026</span>
+                        </div>
+                        <p class="text-sm font-medium text-indigo-400/90 font-mono">Walmart | Dallas, TX[cite: 1]</p>
+                        <ul class="space-y-2 text-sm text-zinc-400 font-light list-disc list-inside">
+                            <li>Deployed an AI-powered developer CLI assistant automating 14 recurring engineering tasks, saving 9 debugging hours per sprint[cite: 1].</li>
+                            <li>Architected RAG systems parsing 1,000+ technical docs, managing 8K-10K daily queries while dropping retrieval latency by 4 seconds[cite: 1].</li>
+                            <li>Orchestrated multi-agent infrastructures using LangChain and AutoGen, coordinating 6 specialized agents via structured tool schemas[cite: 1].</li>
+                            <li>Built verification layers governing 25+ callable tools through automated verification and repair loops in production[cite: 1].</li>
+                            <li>Sustained conversations exceeding 30 turns through advanced session memory caching and semantic routing[cite: 1].</li>
+                        </ul>
+                    </div>
+
+                    <!-- Milestone 3: KPMG -->
+                    <div class="relative border-l border-zinc-800 pl-6 ml-2 space-y-3">
+                        <div class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-zinc-700"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <h3 class="text-lg font-bold text-zinc-100">Machine Learning Engineer</h3>
+                            <span class="text-xs text-zinc-500 font-mono">September 2019 - July 2021</span>
+                        </div>
+                        <p class="text-sm font-medium text-indigo-400/90 font-mono">KPMG | Bengaluru, India[cite: 1]</p>
+                        <ul class="space-y-2 text-sm text-zinc-400 font-light list-disc list-inside">
+                            <li>Deployed Flask RESTful APIs supporting 12K+ monthly insurance claim data exchanges across internal platforms[cite: 1].</li>
+                            <li>Constructed PyTorch/TensorFlow/XGBoost anomaly detection pipelines, flagging 1,800+ high-risk fraudulent transactions per quarter[cite: 1].</li>
+                            <li>Transformed 2 TB+ of claims datasets per month using PySpark distributed compute pipelines on AWS EMR clusters[cite: 1].</li>
+                        </ul>
                     </div>
                 </div>
+            </section>
 
-                <!-- Contribution 2: OpenCV Bug Documented -->
-                <div class="group relative bg-zinc-900/30 p-8 rounded-2xl border border-zinc-900 shadow-xl backdrop-blur-sm hover:border-zinc-800/80 hover:bg-zinc-900/50 transition-all duration-300">
-                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                        <h3 class="text-xl font-bold tracking-tight text-zinc-100 group-hover:text-white transition-colors duration-200">OpenCV Camera Pipeline Refactor</h3>
+            <!-- Active Implementations / Projects Grid -->
+            <section class="space-y-8">
+                <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">Ecosystem Projects</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Project Box 1 -->
+                    <div class="group bg-zinc-900/20 p-6 rounded-2xl border border-zinc-900 hover:border-zinc-800 transition-all duration-300 flex flex-col justify-between">
                         <div>
-                            <span class="bg-amber-500/5 text-amber-400 border border-amber-500/10 text-xs font-semibold px-3 py-1 rounded-full tracking-wide uppercase">
-                                Issue Documented
-                            </span>
+                            <h3 class="text-lg font-bold text-zinc-100 group-hover:text-white transition-colors">Healthcare Agentic Decision Suite</h3>
+                            <p class="text-xs font-mono text-indigo-400 mt-1">FastAPI, OpenAI, Qdrant, React[cite: 1]</p>
+                            <p class="mt-3 text-sm text-zinc-400 font-light leading-relaxed">Coordinated 4 specialized AI agents handling patient intake, evidence collection, compliance validation, and supervisor review loops[cite: 1]. Embedded 3 safety layers to limit hallucination fields[cite: 1].</p>
+                        </div>
+                        <a href="https://github.com/saiteja6006" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 mt-5 block hover:underline">Inspect Architecture Source ↗</a>
+                    </div>
+
+                    <!-- Project Box 2 -->
+                    <div class="group bg-zinc-900/20 p-6 rounded-2xl border border-zinc-900 hover:border-zinc-800 transition-all duration-300 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-zinc-100 group-hover:text-white transition-colors">AI Document Invoice Agent</h3>
+                            <p class="text-xs font-mono text-indigo-400 mt-1">Python, Next.js, Ollama, OCR, MongoDB[cite: 1]</p>
+                            <p class="mt-3 text-sm text-zinc-400 font-light leading-relaxed">Assembled extraction architecture parsing raw multi-format documentation via Tesseract OCR matched with deep semantic RAG vectors over 8K+ invoice data fields[cite: 1].</p>
+                        </div>
+                        <a href="https://github.com/saiteja6006" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 mt-5 block hover:underline">Inspect Architecture Source ↗</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications, Awards, and Academics -->
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <h2 class="text-xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Credentials</h2>
+                    <ul class="space-y-2 text-sm text-zinc-400 font-mono">
+                        <li class="flex items-center gap-2">⚡ AWS Machine Learning Engineer - Associate[cite: 1]</li>
+                        <li class="flex items-center gap-2">⚡ Databricks Generative AI Engineer[cite: 1]</li>
+                        <li class="flex items-center gap-2">⚡ NVIDIA Associate: Generative AI LLMs[cite: 1]</li>
+                        <li class="flex items-center gap-2">⚡ Microsoft Certified: Azure AI Engineer[cite: 1]</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Achievements & Academics</h2>
+                    <div class="space-y-4 text-sm font-light text-zinc-400">
+                        <p><strong class="text-zinc-200">Spotle.AI Hackathon:</strong> Placed top 30 out of 27,000 global engineering participants (July 2019)[cite: 1].</p>
+                        <p><strong class="text-zinc-200">M.S. in Computer Information Systems</strong><br><span class="font-mono text-xs text-indigo-400">University of Central Missouri | 2021 - 2022[cite: 1]</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Side: Sticky Skills Grid & Interactive Recruiter Chatbot -->
+        <div class="space-y-12 lg:sticky lg:top-8">
+            
+            <!-- Skills Breakdown Block -->
+            <div class="bg-zinc-900/30 border border-zinc-900 rounded-2xl p-6 backdrop-blur-sm space-y-6">
+                <h3 class="text-lg font-bold text-white border-b border-zinc-800 pb-2">Core Tech Stack</h3>
+                <div class="space-y-4">
+                    <div>
+                        <span class="text-xs font-mono text-zinc-500 block mb-2 uppercase tracking-wider">AI / GenAI Platforms</span>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">LangChain</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">AutoGen</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">AWS Bedrock</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">GPT-4.1</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">Qdrant</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">RAG</span>
                         </div>
                     </div>
-                    <p class="text-xs font-medium text-indigo-400/80 font-mono uppercase tracking-widest mt-2">Computer Vision | OpenCV, Windows Backend</p>
-                    <p class="mt-4 text-zinc-400 leading-relaxed font-light">
-                        Identified and thoroughly documented an OS-specific test suite failure involving OpenCV's image decoding backend. Isolated how Windows decodes alpha channels (4-channel BGRA) vs Linux (3-channel RGB) during mock camera streams, proposing defensive channel-slicing fallbacks.
-                    </p>
-                    <div class="mt-6">
-                        <a href="https://github.com/huggingface/lerobot" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-medium text-indigo-400 hover:text-indigo-300 transition-colors duration-200 group-link">
-                            View Bug Report 
-                            <span class="inline-block transform group-hover:translate-x-1 transition-transform duration-200 ml-1">↗</span>
-                        </a>
+                    <div>
+                        <span class="text-xs font-mono text-zinc-500 block mb-2 uppercase tracking-wider">Backend Systems</span>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">FastAPI</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">Flask</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">PySpark</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">Python</span>
+                            <span class="bg-zinc-900 border border-zinc-800 text-xs px-2.5 py-1 rounded-md text-zinc-300">TypeScript</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
+            <!-- Recruiter Interactive Chatbot Widget -->
+            <div class="bg-zinc-900/40 border border-zinc-900 rounded-2xl shadow-2xl flex flex-col overflow-hidden h-[450px]">
+                <!-- Chat Banner Header -->
+                <div class="bg-zinc-900 px-4 py-3 border-b border-zinc-800 flex items-center gap-3">
+                    <div class="relative">
+                        <span class="w-2.5 h-2.5 rounded-full bg-indigo-500 block"></span>
+                        <span class="absolute top-0 left-0 w-2.5 h-2.5 rounded-full bg-indigo-400 block animate-ping"></span>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white font-mono uppercase tracking-wide">Sai's Agentic Bot</h4>
+                        <p class="text-[10px] text-zinc-500">Trained on resume telemetry metrics</p>
+                    </div>
+                </div>
+
+                <!-- Live Conversational Feed Panel -->
+                <div id="chat-feed" class="flex-1 p-4 overflow-y-auto text-xs space-y-3 flex flex-col">
+                    <div class="bg-zinc-900 text-zinc-300 p-3 rounded-xl max-w-[85%] self-start border border-zinc-800/60 leading-relaxed">
+                        Hi, I am Sai's portfolio bot. Select a quick action query below or type your vetting requirements directly into the terminal feed.
+                    </div>
+                </div>
+
+                <!-- Micro Interaction Prompt Chips (Decoupled data-chip selectors) -->
+                <div id="chip-container" class="p-2 bg-zinc-950/80 border-t border-zinc-900/60 flex flex-wrap gap-1 max-h-[85px] overflow-y-auto">
+                    <button data-chip="agentic" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-[10px] px-2 py-1 rounded-md text-zinc-400 hover:text-white transition-all text-left">What's your Agentic AI stack?</button>
+                    <button data-chip="rag" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-[10px] px-2 py-1 rounded-md text-zinc-400 hover:text-white transition-all text-left">Tell me about your RAG metrics</button>
+                    <button data-chip="contact" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-[10px] px-2 py-1 rounded-md text-zinc-400 hover:text-white transition-all text-left">Provide verified phone/email</button>
+                </div>
+
+                <!-- Console Input Field Grid -->
+                <div class="p-3 bg-zinc-900 border-t border-zinc-800 flex gap-2">
+                    <input id="chat-input" type="text" placeholder="Type a message (e.g. cloud, spark, metrics)..." class="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-xs text-zinc-100 placeholder-zinc-600 focus:outline-none focus:border-indigo-500 transition-colors">
+                    <button id="chat-submit" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs px-3 py-1.5 rounded-lg font-medium transition-colors">Send</button>
+                </div>
+            </div>
+
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-zinc-950 text-center py-16 text-xs text-zinc-600 border-t border-zinc-900/50 tracking-wider uppercase">
+    <!-- Footer Space -->
+    <footer class="bg-zinc-950 text-center py-16 text-xs text-zinc-600 border-t border-zinc-900/40 tracking-wider uppercase">
         <p>&copy; 2026 Sai Dari. Built with GitHub Pages & Tailwind CSS.</p>
     </footer>
 
-    <!-- Dynamic Typewriter Script Engine -->
-    <script>
-        const words = [
-            "Software Engineer.",
-            "Open Source Contributor.",
-            "Computer Vision Developer.",
-            "Robotics Problem Solver."
-        ];
-        
-        let wordIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const targetElement = document.getElementById("typewriter-text");
-        
-        function typeEffect() {
-            const currentWord = words[wordIndex];
-            
-            if (isDeleting) {
-                targetElement.textContent = currentWord.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                targetElement.textContent = currentWord.substring(0, charIndex + 1);
-                charIndex++;
-            }
-            
-            let typingSpeed = isDeleting ? 40 : 80;
-            
-            if (!isDeleting && charIndex === currentWord.length) {
-                typingSpeed = 2000;
-                isDeleting = true;
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                wordIndex = (wordIndex + 1) % words.length;
-                typingSpeed = 400;
-            }
-            
-            setTimeout(typeEffect, typingSpeed);
-        }
-        
+    <!-- Typewriter Engine & Class Initialization -->
+    <script type="module">
+        import PortfolioChatbot from './chatbot.js';
+
+        // 1. Initialize Modular Chatbot Class
         document.addEventListener("DOMContentLoaded", () => {
-            setTimeout(typeEffect, 500);
+            const bot = new PortfolioChatbot({
+                feedId: 'chat-feed',
+                inputId: 'chat-input',
+                submitBtnId: 'chat-submit',
+                chipContainerId: 'chip-container'
+            });
+            bot.init();
+        });
+
+        // 2. Structural Typewriter Animation
+        const roles = [
+            "Agentic Multi-Agent Frameworks.",
+            "Enterprise RAG Architectures.",
+            "HIPAA-Compliant AI Pipelines.",
+            "LLMOps Evaluation & Metrics."
+        ];
+        let roleIdx = 0, charIdx = 0, isDeleting = false;
+        const target = document.getElementById("typewriter-text");
+
+        function playTypewriter() {
+            const current = roles[roleIdx];
+            target.textContent = isDeleting ? current.substring(0, charIdx - 1) : current.substring(0, charIdx + 1);
+            charIdx += isDeleting ? -1 : 1;
+            let speed = isDeleting ? 30 : 60;
+            if (!isDeleting && charIdx === current.length) { speed = 2500; isDeleting = true; }
+            else if (isDeleting && charIdx === 0) { isDeleting = false; roleIdx = (roleIdx + 1) % roles.length; speed = 300; }
+            setTimeout(playTypewriter, speed);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(playTypewriter, 400);
         });
     </script>
-
 </body>
 </html>
