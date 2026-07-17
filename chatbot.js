@@ -10,13 +10,13 @@ export default class PortfolioChatbot {
         this.submitBtn = document.getElementById(config.submitBtnId || 'chat-submit');
         this.chipContainer = document.getElementById(config.chipContainerId || 'chip-container');
         
-        // Knowledge base derived directly from historical telemetry metrics and professional background[cite: 1]
+        // Knowledge base derived directly from historical telemetry metrics and professional background
         this.knowledgeBase = {
-            agentic: "Sai handled multi-agent system execution across LangChain & AutoGen frameworks at Walmart, configuring 6 specialized operational sub-agents governed by automated tool schemas and automated retry/repair validation execution loops[cite: 1].",
-            rag: "Sai engineered robust enterprise RAG workflows at Blue Cross Blue Shield over 10K+ clinical text arrays, decreasing internal documentation lookup search delays by 11 seconds[cite: 1]. At Walmart, his designs parsed 1K+ technical manuals across 8K-10K daily user interactions[cite: 1].",
-            contact: "Sai can be reached immediately for screenings via email at sailypally98@gmail.com or via telephone line text routing at +1 (206) 451-8426[cite: 1].",
-            certifications: "Sai holds multiple elite cloud certifications including AWS Certified Machine Learning Engineer, Databricks Generative AI Engineer, and NVIDIA Generative AI LLMs[cite: 1].",
-            default: "Thanks for checking out Sai's profile. I've logged that intent. You can find deep experience mappings across production systems at Walmart and BCBS listed directly in the timeline metrics on this page![cite: 1]"
+            agentic: "Sai handled multi-agent system execution across LangChain & AutoGen frameworks at Walmart, configuring 6 specialized operational sub-agents governed by automated tool schemas and automated retry/repair validation execution loops.",
+            rag: "Sai engineered robust enterprise RAG workflows at Blue Cross Blue Shield over 10K+ clinical text arrays, decreasing internal documentation lookup search delays by 11 seconds. At Walmart, his designs parsed 1K+ technical manuals across 8K-10K daily user interactions.",
+            contact: "Sai can be reached immediately for screenings via email at sailypally98@gmail.com or via telephone line text routing at +1 (206) 451-8426.",
+            certifications: "Sai holds multiple elite cloud certifications including AWS Certified Machine Learning Engineer, Databricks Generative AI Engineer, and NVIDIA Generative AI LLMs.",
+            default: "Thanks for checking out Sai's profile. I've logged that intent. You can find deep experience mappings across production systems at Walmart and BCBS listed directly in the timeline metrics on this page!"
         };
     }
 
