@@ -9,7 +9,7 @@
     <!-- Premium Developer Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700&family=Space+Grotesk:wght=400;500;700&family=JetBrains+Mono:wght=400;500&display=swap" rel="stylesheet">
     
     <style>
         h1, h2, h3, .tech-heading { font-family: 'Space Grotesk', sans-serif; }
@@ -85,12 +85,13 @@
             <div class="absolute left-12 right-12 top-1/2 -translate-y-1/2 h-[1px] bg-zinc-900 z-0"></div>
             <div id="career-track-progress" class="absolute left-12 top-1/2 -translate-y-1/2 w-0 h-[1px] bg-gradient-to-r from-purple-500 via-indigo-500 to-emerald-500 z-0 track-progress-line"></div>
 
-            <!-- Visual Career Milestone Anchors -->
+            <!-- Visual Career Milestone Anchors aligned with user requested journey -->
             <div class="absolute left-12 right-12 top-1/2 -translate-y-1/2 flex justify-between px-1 pointer-events-none z-20 font-mono text-[10px] tracking-wider text-zinc-600 uppercase">
-                <span id="mark-kpmg" class="bg-zinc-950 px-2 transition-colors duration-300">KPMG Intern</span>
-                <span id="mark-walmart" class="bg-zinc-950 px-2 transition-colors duration-300">Walmart AI</span>
-                <span id="mark-bcbs" class="bg-zinc-950 px-2 transition-colors duration-300">BCBS Senior</span>
-                <span id="mark-goal" class="bg-zinc-950 px-2 flex items-center gap-1 text-zinc-700 transition-colors duration-300">Goal 🏁</span>
+                <span id="mark-journey" class="bg-zinc-950 px-2 transition-colors duration-300">Journey</span>
+                <span id="mark-experience" class="bg-zinc-950 px-2 transition-colors duration-300">Experience</span>
+                <span id="mark-projects" class="bg-zinc-950 px-2 transition-colors duration-300">Projects</span>
+                <span id="mark-achievements" class="bg-zinc-950 px-2 transition-colors duration-300">Achievements</span>
+                <span id="mark-academics" class="bg-zinc-950 px-2 flex items-center gap-1 transition-colors duration-300">Academics 🏁</span>
             </div>
 
             <!-- RUNNING MINI ROBOT AGENT -->
@@ -116,8 +117,8 @@
         <!-- Left Side: Core Engineering Narrative -->
         <div class="lg:col-span-2 space-y-24">
             
-            <!-- EXECUTIVE ROADMAP INTRO -->
-            <section class="space-y-6">
+            <!-- 1. EXECUTIVE ROADMAP INTRO -->
+            <section id="section-journey" class="space-y-6 scroll-mt-32">
                 <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">
                     The Engineering Journey & Impact
                 </h2>
@@ -131,9 +132,9 @@
 
                     <!-- KPMG Era Narrative Summary -->
                     <div class="border-l-2 border-zinc-900/60 pl-4 my-4 space-y-1">
-                        <span class="text-xs font-mono uppercase tracking-wider text-zinc-500 block">The Foundation — KPMG (Internship)</span>
+                        <span class="text-xs font-mono uppercase tracking-wider text-zinc-500 block">The Foundation — KPMG Machine Learning & Python Infrastructure</span>
                         <p>
-                            I cut my teeth on massive data landscapes at <span class="text-indigo-400 font-medium">KPMG</span>, architecting distributed PySpark pipelines on AWS EMR clusters to crunch over <strong class="text-zinc-200 font-medium">2 TB of monthly claims data</strong>. By deploying machine learning anomaly detection pipelines, we successfully flagged and isolated <strong class="text-zinc-200 font-medium">1,800+ high-risk fraudulent transactions every quarter</strong> before they could impact the system.
+                            I built my technical foundation handling cross-functional data landscapes at <span class="text-indigo-400 font-medium">KPMG</span>. Transitioning from automated NLP chatbot workflows to engineering distributed PySpark processing pipelines on AWS EMR, I managed the ingestion and optimization of over <strong class="text-zinc-200 font-medium">2 TB of monthly claims data</strong> while delivering production-grade Flask integrations.
                         </p>
                     </div>
 
@@ -155,8 +156,8 @@
                 </div>
             </section>
 
-            <!-- PROFESSIONAL EXPERIENCE SECTION (WHAT + WHY + IMPACT) -->
-            <section id="experience-timeline-anchor" class="space-y-10 pt-4">
+            <!-- 2. PROFESSIONAL EXPERIENCE SECTION (WHAT + WHY + IMPACT) -->
+            <section id="section-experience" class="space-y-10 scroll-mt-32">
                 <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">
                     Professional Experience Metrics
                 </h2>
@@ -212,37 +213,62 @@
                         </div>
                     </div>
 
-                    <!-- Milestone 3: KPMG (Internship) -->
+                    <!-- Milestone 3: KPMG Machine Learning Engineer -->
                     <div class="relative border-l border-zinc-800/80 pl-6 ml-2 space-y-4">
                         <div class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-zinc-700"></div>
                         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
-                            <h3 class="text-lg font-bold text-zinc-100">Machine Learning Intern</h3>
+                            <h3 class="text-lg font-bold text-zinc-100">Machine Learning Engineer</h3>
                             <span class="text-xs text-zinc-500 font-mono">September 2019 - July 2021</span>
                         </div>
                         <p class="text-sm font-medium text-indigo-400/90 font-mono">KPMG | Bengaluru, India</p>
                         
                         <div class="grid grid-cols-1 gap-3 pt-2 text-sm">
                             <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl">
-                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">What:</span>
-                                <p class="text-zinc-300 font-light">Constructed PySpark distributed data transformation pipelines alongside PyTorch and XGBoost machine learning scoring frameworks.</p>
+                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">What & Why:</span>
+                                <p class="text-zinc-300 font-light">Deployed RESTful APIs via Flask and authored TypeScript modules to implement 30+ strict validation rules, seamlessly integrating core healthcare applications with third-party eligibility and claims ecosystems.</p>
                             </div>
                             <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl">
-                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">Why:</span>
-                                <p class="text-zinc-300 font-light">To ingest, normalize, and monitor high-velocity insurance claim registries for anomalous data patterns on AWS EMR compute clusters.</p>
+                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">Architectural Scope:</span>
+                                <p class="text-zinc-300 font-light">Constructed anomaly detection architectures utilizing PyTorch, TensorFlow, and XGBoost while transforming over 2 TB+ of monthly claims data using PySpark on AWS EMR.</p>
                             </div>
                             <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl border-l-2 border-l-purple-500/50">
                                 <span class="text-xs font-mono font-bold text-purple-400 uppercase tracking-wider block mb-1">Impact:</span>
-                                <p class="text-zinc-200 font-medium font-sans">Successfully scaled stable data transformations over 2 TB+ of monthly claims data and isolated 1,800+ high-risk fraud anomalies per quarter.</p>
+                                <p class="text-zinc-200 font-medium font-sans">Supported over 12K+ monthly transaction exchanges and flagged 1,800+ high-risk fraudulent transactions per quarter for intensive review.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: KPMG Python Developer Intern -->
+                    <div class="relative border-l border-zinc-800/80 pl-6 ml-2 space-y-4">
+                        <div class="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-zinc-700"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <h3 class="text-lg font-bold text-zinc-100">Python Developer Intern</h3>
+                            <span class="text-xs text-zinc-500 font-mono">February 2019 - August 2019</span>
+                        </div>
+                        <p class="text-sm font-medium text-indigo-400/90 font-mono">KPMG | Bengaluru, India</p>
+                        
+                        <div class="grid grid-cols-1 gap-3 pt-2 text-sm">
+                            <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl">
+                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">What:</span>
+                                <p class="text-zinc-300 font-light">Programmed an enterprise-level AI chatbot system leveraging Rasa, TensorFlow, and Python syntax blocks.</p>
+                            </div>
+                            <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl">
+                                <span class="text-xs font-mono font-bold text-zinc-500 uppercase tracking-wider block mb-1">Why:</span>
+                                <p class="text-zinc-300 font-light">To automate 5 recurring healthcare and clinical data integration workflows across localized internal engineering staging environments.</p>
+                            </div>
+                            <div class="bg-zinc-900/20 border border-zinc-900/60 p-3 rounded-xl border-l-2 border-l-blue-500/50">
+                                <span class="text-xs font-mono font-bold text-blue-400 uppercase tracking-wider block mb-1">Impact:</span>
+                                <p class="text-zinc-200 font-medium font-sans">Configured scalable continuous NLP training loops over MongoDB and AWS resources, analyzing 5K+ records per cycle.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- OPEN SOURCE PROJECTS -->
-            <section class="space-y-8 pt-4">
+            <!-- 3. PROJECTS AND OPEN SOURCE -->
+            <section id="section-projects" class="space-y-8 scroll-mt-32">
                 <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight flex items-center gap-3">
-                    Open Source & Featured Projects
+                    Projects and Open Source
                 </h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -287,23 +313,47 @@
                 </div>
             </section>
 
-            <!-- Academics -->
-            <section id="academics-section-anchor" class="grid grid-cols-1 md:grid-cols-2 gap-10 pt-4">
+            <!-- 4. ACHIEVEMENTS -->
+            <section id="section-achievements" class="space-y-6 scroll-mt-32">
+                <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight">
+                    Achievements
+                </h2>
+                <div class="bg-zinc-900/20 border border-zinc-900/60 p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-indigo-500/10 p-2.5 rounded-xl text-indigo-400 font-mono text-sm">🏆</div>
+                        <div>
+                            <h4 class="text-md font-bold text-zinc-100">Spotle.AI Global Hackathon Placement</h4>
+                            <p class="text-sm text-zinc-400 font-light mt-1">Placed within the top 30 out of 27,000+ global industry and academic competitors during high-intensity ML deployment challenges.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 pt-4 border-t border-zinc-900/60">
+                        <div class="bg-indigo-500/10 p-2.5 rounded-xl text-indigo-400 font-mono text-sm">🛡️</div>
+                        <div>
+                            <h4 class="text-md font-bold text-zinc-100">Enterprise Engineering Metrics Mastery</h4>
+                            <p class="text-sm text-zinc-400 font-light mt-1">Consistently recognized for architectural optimization paths across Fortune 1 and enterprise ecosystems, lowering processing overheads.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. ACADEMICS -->
+            <section id="section-academics" class="grid grid-cols-1 md:grid-cols-2 gap-10 scroll-mt-32">
                 <div>
-                    <h2 class="text-xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Credentials</h2>
-                    <ul class="space-y-2 text-sm text-zinc-400 font-mono">
-                        <li class="flex items-center gap-2">⚡ AWS Machine Learning Engineer - Associate</li>
-                        <li class="flex items-center gap-2">⚡ Databricks Generative AI Engineer</li>
-                        <li class="flex items-center gap-2">⚡ NVIDIA Associate: Generative AI LLMs</li>
-                        <li class="flex items-center gap-2">⚡ Microsoft Certified: Azure AI Engineer</li>
-                    </ul>
+                    <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Academics</h2>
+                    <div class="bg-zinc-900/20 border border-zinc-900/60 p-5 rounded-2xl space-y-2">
+                        <p class="text-sm font-semibold text-zinc-100">M.S. in Computer Information Systems</p>
+                        <p class="font-mono text-xs text-indigo-400">University of Central Missouri | 2021 - 2022</p>
+                        <p class="text-xs text-zinc-400 font-light leading-relaxed pt-1">Specialized engineering syllabus focusing on distributed structural design patterns and big data infrastructure algorithms.</p>
+                    </div>
                 </div>
                 <div>
-                    <h2 class="text-xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Achievements & Academics</h2>
-                    <div class="space-y-4 text-sm font-light text-zinc-400">
-                        <p><strong class="text-zinc-200">Spotle.AI Hackathon:</strong> Placed top 30 out of 27,000 global participants.</p>
-                        <p><strong class="text-zinc-200">M.S. in Computer Information Systems</strong><br><span class="font-mono text-xs text-indigo-400">University of Central Missouri | 2021 - 2022</span></p>
-                    </div>
+                    <h2 class="text-2xl font-bold text-white border-b border-zinc-900 pb-3 tracking-tight mb-4">Credentials</h2>
+                    <ul class="space-y-2.5 text-sm text-zinc-400 font-mono bg-zinc-900/20 border border-zinc-900/60 p-5 rounded-2xl">
+                        <li class="flex items-center gap-2 text-xs">⚡ AWS Machine Learning Engineer - Associate</li>
+                        <li class="flex items-center gap-2 text-xs">⚡ Databricks Generative AI Engineer</li>
+                        <li class="flex items-center gap-2 text-xs">⚡ NVIDIA Associate: Generative AI LLMs</li>
+                        <li class="flex items-center gap-2 text-xs">⚡ Microsoft Certified: Azure AI Engineer</li>
+                    </ul>
                 </div>
             </section>
         </div>
@@ -440,16 +490,30 @@
             const progressLine = document.getElementById('career-track-progress');
             const trackContainer = document.getElementById('career-track-container');
 
-            // Milestone Text Elements
-            const markKpmg = document.getElementById('mark-kpmg');
-            const markWalmart = document.getElementById('mark-walmart');
-            const markBcbs = document.getElementById('mark-bcbs');
-            const markGoal = document.getElementById('mark-goal');
+            // Sequential Milestone Text Elements mapping user layout sequence
+            const markJourney = document.getElementById('mark-journey');
+            const markExperience = document.getElementById('mark-experience');
+            const markProjects = document.getElementById('mark-projects');
+            const markAchievements = document.getElementById('mark-achievements');
+            const markAcademics = document.getElementById('mark-academics');
+
+            const sections = [
+                { id: 'section-journey', mark: markJourney },
+                { id: 'section-experience', mark: markExperience },
+                { id: 'section-projects', mark: markProjects },
+                { id: 'section-achievements', mark: markAchievements },
+                { id: 'section-academics', mark: markAcademics }
+            ];
 
             window.addEventListener('scroll', () => {
-                // Track journey from start of professional experience section to the end of academics
-                const startTimeline = document.getElementById('experience-timeline-anchor').offsetTop - 300;
-                const endTimeline = document.getElementById('academics-section-anchor').offsetTop + document.getElementById('academics-section-anchor').offsetHeight - window.innerHeight;
+                const firstSection = document.getElementById(sections[0].id);
+                const lastSection = document.getElementById(sections[sections.length - 1].id);
+
+                if (!firstSection || !lastSection) return;
+
+                // Sync bounds calculation: starts when the journey entry hits view space, ends when academics exits
+                const startTimeline = firstSection.offsetTop - 200;
+                const endTimeline = lastSection.offsetTop + lastSection.offsetHeight - window.innerHeight;
                 
                 const totalJourneyDistance = endTimeline - startTimeline;
                 let currentProgressRatio = 0;
@@ -460,7 +524,7 @@
                 if (window.scrollY >= endTimeline) currentProgressRatio = 1;
                 if (currentProgressRatio < 0) currentProgressRatio = 0;
 
-                // Move robot across horizontally safely within padded container track boundary limits
+                // Position calculation matching horizontal bounds accurately
                 const leftPadding = 48; // px-12 flanking offsets
                 const totalTrackWidth = trackContainer.offsetWidth - (leftPadding * 2);
                 const targetedRobotX = leftPadding + (currentProgressRatio * totalTrackWidth);
@@ -468,21 +532,33 @@
                 robot.style.left = `${targetedRobotX}px`;
                 progressLine.style.width = `${currentProgressRatio * 100}%`;
 
-                // Highlight milestone anchors contextually as robot crosses paths
-                markKpmg.style.color = currentProgressRatio >= 0.05 ? '#a855f7' : '#52525b';
-                markWalmart.style.color = currentProgressRatio >= 0.45 ? '#6366f1' : '#52525b';
-                markBcbs.style.color = currentProgressRatio >= 0.80 ? '#22d3ee' : '#52525b';
-                
-                if (currentProgressRatio >= 0.98) {
-                    markGoal.classList.remove('text-zinc-700');
-                    markGoal.classList.add('text-emerald-400', 'font-bold');
-                } else {
-                    markGoal.classList.remove('text-emerald-400', 'font-bold');
-                    markGoal.classList.add('text-zinc-700');
-                }
+                // Calculate highlighted text based on explicit viewport scroll metrics
+                sections.forEach((sec, idx) => {
+                    const el = document.getElementById(sec.id);
+                    if (!el) return;
+                    
+                    const top = el.offsetTop - 250;
+                    const bottom = top + el.offsetHeight;
+                    const isCurrent = window.scrollY >= top && window.scrollY < bottom;
+                    const isPast = window.scrollY >= bottom;
+
+                    if (idx === sections.length - 1 && currentProgressRatio >= 0.96) {
+                        sec.mark.style.color = '#34d399'; // Emerald completion hue
+                        sec.mark.classList.add('font-bold');
+                    } else if (isCurrent) {
+                        sec.mark.style.color = '#6366f1'; // Active Section focus
+                        sec.mark.classList.add('font-medium');
+                    } else if (isPast) {
+                        sec.mark.style.color = '#a855f7'; // Completed Section focus
+                        sec.mark.classList.remove('font-medium');
+                    } else {
+                        sec.mark.style.color = '#52525b'; // Standard inactive state
+                        sec.mark.classList.remove('font-medium', 'font-bold');
+                    }
+                });
 
                 // Fire micro thruster sparks if active scrolling delta occurs
-                if (Math.abs(window.scrollY - lastScrollY) > 1.5 && currentProgressRatio > 0 && currentProgressRatio < 1) {
+                if (Math.abs(window.scrollY - lastScrollY) > 1.2 && currentProgressRatio > 0 && currentProgressRatio < 1) {
                     robotGraphic.classList.add('robot-active-running');
                     
                     const containerRect = trackContainer.getBoundingClientRect();
